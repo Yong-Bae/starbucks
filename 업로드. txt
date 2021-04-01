@@ -1,0 +1,27 @@
+
+1. git status로 수정된 파일 목록을 확인한다.
+  
+  - 그럼 수정된 파일들의 LIST가 출력된다
+
+2. git add .  를 해준다
+3. git status
+
+4. git commit -m '소스 추가'
+
+5. git log
+ -- q 키를 입력
+
+6. git push origin master
+
+---------------------------
+
+PS D:\project\starbuck project\starbucks> git branch -a
+* master
+  remotes/origin/master
+PS D:\project\starbuck project\starbucks> git branch signin
+PS D:\project\starbuck project\starbucks> git branch
+* master
+  signin
+PS D:\project\starbuck project\starbucks> git checkout signin
+Switched to branch 'signin'
+PS D:\project\starbuck project\starbucks>
