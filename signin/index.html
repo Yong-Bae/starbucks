@@ -36,13 +36,14 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 
   <link rel="stylesheet" href="../css/common.css" />
+  <link rel="stylesheet" href="../css/signin.css" />
   
   <!-- defer 화면이 로드가 끝나면 js실행 -->
   <script defer src="../js/common.js"></script>
 
 </head>
 <body>
-  
+
   <!-- header 태그는 특별한 기능은 없지만 본 화면의 헤더 역활의 기능을 한다고 언급 -->
   <!-- HEADER -->
   <header>
@@ -373,7 +374,29 @@
     </div>
   </header>
   
-  <div class="signin"></div>
+  <section class="signin">
+    <h1>로그인</h1>
+    <div class="signin__card">
+      <h2>
+       <strong> Welcome!</strong> 스타벅스에 오신 것을 환영합니다.
+      </h2>
+      <form>
+        <input type="text" placeholder="아이디를 입력하세요" />
+        <input type="password" placeholder="비밀번호를 입력하세요" />
+        <input type="submit" placeholder="로그인" />
+        <P>
+          * 비밀번호를 타 사이트와 같이 사용할 경우 도용 위험이 있으니, <br />
+          정기적으로 비밀번호를 변경하세요!
+        </P>
+      </form>
+      <div class="actions">
+        <a href="javascript:void(0)">회원가입</a>
+        <a href="javascript:void(0)">아이디 찾기</a>
+        <a href="javascript:void(0)">비밀번호 찾기</a>
+      </div>
+    </div>
+  </section>
+
   <!-- FOOTER -->
   <footer>
     <div class="inner">
@@ -407,3 +430,4 @@
 
 </body>
 </html>
+

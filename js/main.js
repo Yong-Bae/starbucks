@@ -204,11 +204,6 @@ spyEls.forEach(function(spyEl) {
 });
 
 /////////////////////////////////////////////////////////////////////
-//
-//
+////
 // 스크롤바를 아래로 내리면 이미지들이 좌/우로 움직이도록 스크롤js 정의
 ////////////////////////////////////////////////////////////////////
-
-const thisYear = document.querySelector('.this-year');
-
-thisYear.textContent = new Date().getFullYear();  //2021
